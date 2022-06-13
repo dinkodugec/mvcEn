@@ -1,3 +1,10 @@
 <?php
 
-echo 'Hello';
+class App
+{
+    public static function start()
+    {
+        echo 'Start';
+    }
+
+  }   
