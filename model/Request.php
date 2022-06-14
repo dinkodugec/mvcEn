@@ -13,6 +13,10 @@ class Request
         }
         // dodati još ključeva koji sadrže rutu
         return $ruta;
+
+    
     }
+
+    
 
   }

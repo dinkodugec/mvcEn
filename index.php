@@ -41,6 +41,8 @@ spl_autoload_register(function($klasa){
   }
 });
 
+/* echo $_SERVER['PATH_INFO']; */
+
 App::start(); 
 
 /*  
