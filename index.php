@@ -12,7 +12,8 @@ error_reporting(E_ALL); */
 session_start(); 
 
 //https://www.phptutorial.net/php-tutorial/php-__dir__/
-define('BP',__DIR__ . DIRECTORY_SEPARATOR);     //__DIR__ magic constant it returns the directory of the file, technically speaking, the __DIR__ is equivalent to the dirname(__FILE__)
+define('BP',__DIR__ . DIRECTORY_SEPARATOR 
+            . 'app' . DIRECTORY_SEPARATOR);     //__DIR__ magic constant it returns the directory of the file, technically speaking, the __DIR__ is equivalent to the dirname(__FILE__)
                                                     // DIRECTORY_SEPARATOR is actually this \ 
 
 
